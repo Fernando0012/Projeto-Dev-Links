@@ -9,7 +9,7 @@
 
 :root{
   --text-color: white;
-  --bg-url: url(../assets/Interface=Mobile\,\ Theme=Dark\ mode.svg);
+  --bg-url: url(../assets/Dark.jpg);
   --border-color: rgba(255, 255, 255, 0.5);
   --surface-color:rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -19,7 +19,7 @@
 
 .light{
   --text-color: black;
-  --bg-url: url(../assets/Interface=Mobile\,\ Theme=Light\ mode.svg);
+  --bg-url: url(../assets/Background.jpg);
   --border-color: rgba(0, 0, 0, 0.5);
   --surface-color:rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -53,7 +53,6 @@ body *{
   margin: 56px auto 0px;
   width: 100%;
   max-width: 588px;
-  height: 712px;
   padding: 0 24px;
   
 }
@@ -67,7 +66,6 @@ body *{
 
 #profile img{
   width: 112px;
-  height: 112px;
   border-radius: 50%;
   border: 1.5px solid var(--border-color);
 
